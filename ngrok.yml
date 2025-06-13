@@ -1,3 +1,7 @@
 version: 3
 agent:
   authtoken: ${NGROK_AUTHTOKEN}
+tunnels:
+  webhook:
+    proto: http
+    addr: ${WEBHOOK_LISTENER_PORT:-3000}
