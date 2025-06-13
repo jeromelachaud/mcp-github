@@ -1,0 +1,23 @@
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+
+# Node modules
+node_modules/
+
+# Runtime files
+*.pid
+
+# Context data (contains sensitive webhook data)
+context-data/
+
+# macOS
+.DS_Store
+
+# Temporary files
+tmp/
+temp/
+
